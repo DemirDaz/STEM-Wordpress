@@ -1,0 +1,74 @@
+*{
+	font-family: 'Josefin Sans', sans-serif; 
+}
+.act-header {
+    margin-top: 25px;
+	font-family: 'Josefin Sans', sans-serif; 
+    color:white;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    max-height: 200px;
+}
+
+.scenario {
+    text-align: center;
+    height: 120px;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+
+.img-det {
+    height: 300px;
+    width: auto;
+}
+ .row2 {
+     width: 70%;
+     margin: auto;
+     margin-top: 30px;
+	 height:70%;
+	 margin-bottom:2%;
+ }
+.h-det {
+    margin-top: 20px;
+    color:#08B400;
+}
+
+.row-det {
+    max-width: 80%;
+    width: 80%;
+}
+
+.cilj {
+margin:auto;
+width: 80%
+}
+
+.kids-link {
+    font-size: 20px;
+}
+.akt-igrice {
+    color: white;
+   
+}
+
+.klogo {
+    height: 60px;
+    width: 100px;
+}
+
+.actitle {
+  font-family: 'Josefin Sans', sans-serif; 
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+

@@ -1,0 +1,134 @@
+/*
+Theme Name: STEM (MMS)
+Author: Demir Dazdarevic
+*/
+*{
+	font-family: 'Josefin Sans', sans-serif; 
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main_login {
+    background-image: url('images/backmain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    background-color: white;
+    opacity: 0.9;
+	font-family: 'Josefin Sans', sans-serif; 
+	
+}
+
+.stem-header-img {
+    height: 300px;
+    width: auto;
+    margin-bottom: 10px;
+    animation: heading;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    position: relative;
+}
+
+@keyframes heading {
+   0% {top: -50px;}
+   100% {top: 30px;}
+}
+
+
+
+.stem-teacher-img {
+    height: 150px;
+    width: auto;
+    margin-top: 25px;
+    transition-duration: 1s;
+    animation-name:teacher;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    position: relative;
+	
+}
+
+@keyframes teacher {
+    0% {top: -500px;}
+    100% {top: 0px;}
+ }
+
+
+.stem-kids-img {
+    height: 150px;
+    width: auto;
+    margin-top: 25px;
+    transition-duration: 1s;
+    animation-name:kids;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    position: relative;
+}
+
+@keyframes kids {
+    0% {top: -500px;}
+    100% {top: 0px;}
+ }
+
+.stem-kids-img:hover {
+//transform: rotateX(360deg);
+	transform: scale(1.1);
+}
+
+.stem-teacher-img:hover {
+    transform: scale(1.1);
+	
+    }
+
+h2 { /*
+   font-family: "Arial Black", Gadget, sans-serif */
+}
+
+#teacher-h {
+	color:white;
+    /*color: #dc3545; 
+     * color: #FFFF6B;*/
+}
+
+#kids-h {
+	color:white;
+	
+    /*color: #007bff; 
+      color: #FFFF6B;*/
+}
+
+.go-signup {
+    text-decoration: none;
+    color: grey;
+}
+
+.yellow-sup {
+	color:#BD43A0;
+}
+.kid-sup {
+    color:#007bff;
+}
+
+.teacher-sup {
+    color:#dc3545;
+}
+
+.btn {
+   /* font-family: "Arial Black", Gadget, sans-serif *.
+}
+
+@media screen and (max-width: 800px) {
+    .stem-header-img {
+        margin-bottom: 20px;
+    }
+    form {
+        opacity: 0.95;
+    }
+    .my-container {
+        font-size: 14px;
+    }
+}

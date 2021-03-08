@@ -1,0 +1,194 @@
+*{
+	font-family: 'Josefin Sans', sans-serif; 
+}
+.header-teacher {
+    height: 70px;
+    width: 100%;
+    background-color:PowderBlue;
+}
+
+.page-wrap {
+    padding: 2rem 0;
+	background-image: url('../images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	background-attachment: fixed;
+	
+   /*background-image: linear-gradient(to right, rgba(255,0,0,0.4), rgba(255,0,0,0.8)); */
+}
+
+.page2-wrap {
+	padding: 2rem 0;
+	background-image: url('../images/try1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.page3-wrap {
+	padding: 2rem 0;
+	background-image: url('../images/try3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+	background-attachment: fixed;
+}
+
+.page4-wrap {
+	padding: 2rem 0;
+	background-image: url('../images/try7.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+	background-attachment: fixed;
+}
+.page5-wrap {
+	padding: 2rem 0;
+	background-image: url('../images/try.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+	background-attachment: fixed;
+}
+.page6-wrap {
+	padding: 2rem 0;
+	background-image: url('../images/slika.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+	background-attachment: fixed;
+}
+.page7-wrap {
+	padding: 2rem 0;
+	background-image: url('../images/slika2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+header .my-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header .top-bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header .top-bar li a{
+text-decoration: none;
+padding: 0.25rem 1rem;
+/* color:white; */
+color:DarkBlue;
+font-size:25px;
+font-style:bold;
+	text-align:right;
+/*font-family: "Arial Black", Gadget, sans-serif */
+}
+
+
+header .top-bar li a:hover {
+    color: white;
+    
+}
+
+
+#logout-t {
+    margin:auto;
+    margin-right: 1rem;
+    font-style:bold;
+    background-color: transparent;
+}
+
+.btn {
+    color: white;
+}
+
+.teacher-avatar {
+    height: 180px;
+    width: auto;
+    transition-duration: 1s;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    animation-name:teacher2;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    position: relative;
+	 
+}
+
+.teacher-avatar:hover {
+    transition: 0.9s;
+    transform: rotateX(360deg)
+}
+
+@keyframes teacher2 {
+    0% {bottom: -100px;}
+    100% {bottom: 0px;}
+ }
+
+.welcome-t {
+    /*font-family: "Arial Black", Gadget, sans-serif;*/
+    opacity: 0;
+    animation-name: btn-wel;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration: 1s;
+    color: white;
+}
+
+@keyframes btn-wel {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+
+ .uvod-p1 {
+     text-align: justify;
+     width: 85%;
+     margin: auto;
+     margin-top: 20px;
+     word-wrap: break-word;
+     color: white;
+ }
+ .row {
+     width: 88%;
+     margin: auto;
+     margin-top: 30px;
+	 height:70%;
+	 margin-bottom:2%;
+ }
+
+.card {
+	
+	border-radius: 25px;
+	background-image: linear-gradient(to bottom right, #C8E7FF, #F1C8FF);
+	margin-bottom:20px;
+	
+}
+
+
+.card2 {
+	height:100%;
+	background-image: linear-gradient(to bottom right, #AFEEEE, #9370DB);
+	
+	
+}
+
+.card3 {
+	width:100%;
+	
+	background-image: linear-gradient(to bottom right, #EEEEEE, #BDF7FF);
+	
+	
+}
+
+ .card-body {
+	 
+     text-align: justify;
+ }
+ .card-header {
+     color:#2E8A00;
+ }
